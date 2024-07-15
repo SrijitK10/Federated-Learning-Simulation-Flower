@@ -40,14 +40,14 @@ This project sets up a federated learning experiment where multiple clients coll
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your_username/your_project_name.git
-    cd your_project_name
+    git clone https://github.com/SrijitK10/Federated-Learning-Simulation-Flower.git
+    cd Federated-Learning-Simulation-Flower
     ```
 
 2. Create a virtual environment and activate it:
     ```bash
-    python -m venv venv
-    source venv/bin/activate
+    conda create -n flower python=3.8
+    conda activate flower
     ```
 
 3. Install the required packages:
